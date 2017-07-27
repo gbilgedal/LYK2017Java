@@ -1,6 +1,10 @@
 package tr.org.linux.kamp.oopbeginning;
 
 public class Cat extends Mammal implements Carnivore {
+	public Cat(String eyeColour, String furColour, int age, String specie) {
+		super(eyeColour, furColour, age, specie);
+		// TODO Auto-generated constructor stub
+	}
 	void meow() {
 		System.out.println("Meow Meow");
 	}
